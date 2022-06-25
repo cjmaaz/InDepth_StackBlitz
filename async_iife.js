@@ -17,7 +17,7 @@ let updateDetails = () => {
   details.innerHTML = `<h1>${name}</h1>
                         <h3>${age}</h3>`;
 
-  let app = document.querySelector('#app').append(details);
+  document.querySelector('#app').append(details);
 };
 
 // Remove Await
